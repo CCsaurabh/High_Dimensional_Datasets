@@ -1,1 +1,2 @@
-High Dimensional means that the number of dimensions are staggeringly high — so high that calculations become extremely difficult. With high dimensional data, the number of features can exceed the number of observations. 
+High Dimensional means that the number of dimensions are staggeringly high — so high that calculations become extremely difficult.
+With high dimensional data, the number of features can exceed the number of observations. 
