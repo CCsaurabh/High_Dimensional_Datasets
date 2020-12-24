@@ -1,4 +1,6 @@
-High Dimensional means that the number of dimensions are staggeringly high — so high that calculations become extremely difficult.
-With high dimensional data, the number of features can exceed the number of observations. 
+1. High Dimensional dataset.
+  High Dimensional means that the number of dimensions are staggeringly high — so high that calculations become extremely difficult.
+  With high dimensional data, the number of features can exceed the number of observations. 
 
+2. Bias and Variance
 It can be said that bias is related with a model failing to fit the training set and variance is related with a model failing to fit the testing set.
