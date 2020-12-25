@@ -5,6 +5,7 @@ class GradientDescentUnivariateLassoRegression:
 	def __init__(self,learning_rate=0.01,iterations=1000,alpha=0.5):
 		self.learning_rate,self.iterations,self.alpha=learning_rate,iterations,alpha
 
+		
 	def fit(Self,X,y):
 		def soft_threshold(alpha,beta):
 			if beta>alpha:
@@ -14,6 +15,7 @@ class GradientDescentUnivariateLassoRegression:
 			else:
 				return 0
 
+			
 		def gradient(X,y,alpha,beta):
 			n=len(X)
 			ols_term=-2*np.sum(X*(y-(beta*X)))/n
